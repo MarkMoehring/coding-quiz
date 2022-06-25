@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>* Coding Quiz *</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="welcome-page" class="start">
+          <h1>* Coding Quiz Challenge *</h1>
+          <p>
+            We welcome you to test your knowledge of web coding.  Try to answer the following coding-related questions before the timer runs out.  But beware, time is deducted for each incorrect answer.  Good luck!
+          </p>
+          <button id="start">Start Quiz</button>
+        </div>
+  
+        <div id="questions" class="hide">
+          <h2 id="question-title"></h2>
+          <div id="options" class="options"></div>
+        </div>
+  
+        <div id="results-page" class="hide">
+          <h2>You did it!</h2>
+          <p>Your final score is <span id="final-score"></span>.</p>
+          <p>
+            Enter your initials: <input type="text" id="initials" max="4" />
+            <button id="submit">Submit</button>
+          </p>
+        </div>
+  
+        <div id="feedback" class="feedback hide"></div>
+      </div>
+</body>
+</html>
